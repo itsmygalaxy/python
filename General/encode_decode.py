@@ -6,10 +6,11 @@ print(s)
 
 s = s.decode('base64','strict')
 print(s)
-
-======================
+'''
+===========Output============
 #python encode_decode.py
 aXRzbXlnYWxheHk=
 
 itsmygalaxy
-======================
+========End of Output========
+'''
