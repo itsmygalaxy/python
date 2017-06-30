@@ -1,5 +1,5 @@
 __Author__ = "Venkat"
-#for 
+#for else loop
 list = [1,2,3,4,5]
 for i in list:
         if i == 6:
