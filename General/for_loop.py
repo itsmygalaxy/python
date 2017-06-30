@@ -1,3 +1,5 @@
+#The for..in statement is another looping statement which iterates over a sequence of objects. i.e go thr' each item in sequence.
+
 __Author__ = "Venkat"
 # for loop
 for i in 'Itsmygalaxy':
