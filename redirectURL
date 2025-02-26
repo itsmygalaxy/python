@@ -1,0 +1,13 @@
+print ("hello world")
+from js import Response, URL
+
+async def on_fetch(request):
+    base = "https://itsmygalaxy.com"
+    statusCode = 301
+
+    url = URL.new(request.url)
+
+    test.itsmygalaxy.com = f'{base}{url.pathname}{url.search}'
+    print(test.itsmygalaxy.com)
+
+    return Response.redirect(test.itsmygalaxy.com, statusCode)
